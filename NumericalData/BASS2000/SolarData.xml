@@ -6,20 +6,22 @@
     <ResourceHeader>
       <ResourceName>Solar Data at Meudon and Tarbes via BASS 2000</ResourceName>
       <ReleaseDate>2018-06-28T22:02:01Z</ReleaseDate>
-      <Description>Multiple solar data products held at Meudon and Tarbes sites in France, via the BASS (Base de donnees Solaire Sol) 2000 web site.  Included are Nancay radioheliograph data, Meudon spectroheliograph data, THEMIS data and Pic du Mida coronagraph data</Description>
+      <Description>Multiple solar data products held at Meudon in France, via the BASS (Base de donnees Solaire Sol) 
+        2000 web site.  Included are Nancay radioheliograph data, Meudon spectroheliograph data, THEMIS data and 
+        Pic du Mida coronagraph data</Description>
       <Contact>
-        <PersonID>spase://SMWG/Person/Nadege.Meunier</PersonID>
+        <PersonID>spase://SMWG/Person/Jean.Aboudarham</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>
         <Name>Info on the BASS 2000 database</Name>
-        <URL>http://bass2000.bagn.obs-mip.fr/Tarbes/</URL>
+        <URL>http://bass2000.obspm.fr</URL>
       </InformationURL>
       <PriorID>spase://VSPO/NumericalData/P_BASS2000_HDR</PriorID>
       <PriorID>spase://VSPO/NumericalData/BASS2000/SolarData</PriorID>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://SMWG/Repository/Meudon</RepositoryID>
+      <RepositoryID>spase://SMWG/Repository/PADC/BASS2000</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
@@ -29,8 +31,8 @@
       <Format>FITS</Format>
     </AccessInformation>
     <ProviderProcessingLevel>CALIBRATED</ProviderProcessingLevel>
-    <InstrumentID>spase://SMWG/Instrument/Meudon/Spectroheliograph</InstrumentID>
-    <InstrumentID>spase://SMWG/Instrument/NANCAY/Radioheliograph</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/ObsParis/Meudon/Spectroheliograph</InstrumentID>
+    <InstrumentID>spase://SMWG/Instrument/ObsNancay/NRH</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/PicduMidi/Coronagraph</InstrumentID>
     <InstrumentID>spase://SMWG/Instrument/Ground/TEIDE/THEMIS</InstrumentID>
     <MeasurementType>ImageIntensity</MeasurementType>
