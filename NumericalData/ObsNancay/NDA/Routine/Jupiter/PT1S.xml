@@ -1,0 +1,111 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+ <Version>2.3.0</Version>
+ <NumericalData>
+  <ResourceID>spase://GBO/NumericalData/ObsNancay/NDA/Routine/Jupiter/PT1S</ResourceID>
+  <ResourceHeader>
+   <ResourceName>NDA Routine Jupiter raw data</ResourceName>
+   <ReleaseDate>2019-07-11T17:30:15</ReleaseDate>
+   <Description>NDA Routine Jupiter raw data</Description>
+   <Acknowledgement>The authors acknowledge the Station de Radioastronomie de Nançay of the Observatoire de Paris (USR 704-CNRS, supported by Université d’Orléans, OSUC, and Région Centre in France) for providing access to NDA observations accessible online at http://www.obs-nancay.fr</Acknowledgement>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+    <Role>DataProducer</Role>
+   </Contact>
+  </ResourceHeader>
+  <AccessInformation>
+   <RepositoryID>spase://SMWG/Repository/PADC/MASER/Nancay</RepositoryID>
+   <Availability>Online</Availability>
+   <AccessRights>Open</AccessRights>
+   <AccessURL>
+    <Name>HTTP Listing</Name>
+    <URL>https://realtime.obs-nancay.fr/dam/databf/web/jupiter/data/</URL>
+    <Style>Listing</Style>
+    <Description>NDA Routine Jupiter CDF file HTTP listing</Description>
+   </AccessURL>
+   <Format>CDF</Format>
+   <DataExtent>
+    <Quantity>22</Quantity>
+    <Units>MB</Units>
+    <Per>P1D</Per>
+   </DataExtent>
+  </AccessInformation>
+  <AccessInformation>
+   <RepositoryID>spase://SMWG/Repository/PADC/MASER/Nancay</RepositoryID>
+   <Availability>Online</Availability>
+   <AccessRights>Open</AccessRights>
+   <AccessURL>
+    <Name>HTTP listing</Name>
+    <URL>https://realtime.obs-nancay.fr/dam/databf/web/jupiter/data/</URL>
+    <Style>Listing</Style>
+    <Description>NDA Routine Jupiter RT1 (raw binary) file HTTP listing</Description>
+   </AccessURL>
+   <Format>Binary</Format>
+   <DataExtent>
+    <Quantity>22</Quantity>
+    <Units>MB</Units>
+    <Per>P1D</Per>
+   </DataExtent>
+  </AccessInformation>
+  <AccessInformation>
+   <RepositoryID>spase://Repository/PADC/MASER/Nancay</RepositoryID>
+   <Availability>Online</Availability>
+   <AccessRights>Open</AccessRights>
+   <AccessURL>
+    <Name>EPN-TAP VO access</Name>
+    <URL>http://vogate.obs-nancay.fr/tap</URL>
+    <Style>WebService</Style>
+    <ProductKey>nda.epn_core</ProductKey>
+    <Description>TAP interface to the NDA data collection.</Description>
+   </AccessURL>
+   <Format>VOTable</Format>
+   <DataExtent>
+    <Quantity>45</Quantity>
+    <Units>MB</Units>
+    <Per>P1D</Per>
+   </DataExtent>
+  </AccessInformation>
+  <AccessInformation>
+   <RepositoryID>spase://Repository/PADC/MASER/Nancay</RepositoryID>
+   <Availability>Online</Availability>
+   <AccessRights>Open</AccessRights>
+   <AccessURL>
+    <Name>Das2 server interface</Name>
+    <URL>https://das2server.obs-nancay.fr/das2/server</URL>
+    <Style>WebService</Style>
+    <ProductKey>Nancay/NDA/Routine/routine_jup_lh</ProductKey>
+    <Description>NDA Routine Jupiter LH polarized das2stream</Description>
+   </AccessURL>
+   <AccessURL>
+    <Name>Das2 server interface</Name>
+    <URL>https://das2server.obs-nancay.fr/das2/server</URL>
+    <Style>WebService</Style>
+    <ProductKey>Nancay/NDA/Routine/routine_jup_rh</ProductKey>
+    <Description>NDA Routine Jupiter LH polarized das2stream</Description>
+   </AccessURL>
+   <AccessURL>
+    <Name>Das2 server interface</Name>
+    <URL>https://das2server.obs-nancay.fr/das2/server</URL>
+    <Style>WebService</Style>
+    <ProductKey>Nancay/NDA/Routine/routine_jup_dp</ProductKey>
+    <Description>NDA Routine Jupiter degree of circular polarization das2stream</Description>
+   </AccessURL>
+   <Format>Binary</Format>
+   <DataExtent>
+    <Quantity>22</Quantity>
+    <Units>MB</Units>
+    <Per>P1D</Per>
+   </DataExtent>
+  </AccessInformation>
+  <ProcessingLevel>Uncalibrated</ProcessingLevel>
+  <InstrumentID>spase://SMWG/Instrument/ObsNancay/NDA/Routine</InstrumentID>
+  <MeasurementType>Waves.Passive</MeasurementType>
+  <TemporalDescription>
+   <TimeSpan>
+    <StartDate>1990-09-18T04:38:00</StartDate>
+    <RelativeStopDate>P0D</RelativeStopDate>
+   </TimeSpan>
+   <Cadence>PT1S</Cadence>
+  </TemporalDescription>
+ </NumericalData>
+</Spase>
