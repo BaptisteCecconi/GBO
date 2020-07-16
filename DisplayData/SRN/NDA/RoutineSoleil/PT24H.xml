@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+ <Version>2.3.1</Version>
+ <DisplayData>
+  <ResourceID>spase://GBO/DisplayData/SRN/NDA/RoutineSoleil/PT24H</ResourceID>
+  <ResourceHeader>
+   <ResourceName>NDA/Routine Browse Interface</ResourceName>
+   <ReleaseDate>2020-07-16T14:07:33</ReleaseDate>
+   <Description>Dynamic Spectra of NDA/Routine data with Sun tracking</Description>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Laurent.Lamy</PersonID>
+    <Role>GeneralContact</Role>
+   </Contact>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+    <Role>GeneralContact</Role>
+   </Contact>
+   <InformationURL>
+    <Name>Nançay Decameter Array</Name>
+    <URL>https://www.obs-nancay.fr/reseau-decametrique/</URL>
+    <Description>Nançay Decameter Array description page, with data access links</Description>
+    <Language>fr</Language>
+   </InformationURL>
+  </ResourceHeader>
+  <AccessInformation>
+   <RepositoryID>spase://SMWG/Repository/CDN</RepositoryID>
+   <AccessURL>
+    <Name>Nançay Decameter Array Routine data</Name>
+    <URL>https://realtime.obs-nancay.fr/dam/data_dam_affiche/data_dam_affiche.php?planete=soleil&amp;couleur=NoirBlanc&amp;mode=calendrier&amp;an=2020</URL>
+    <Language>en</Language>
+   </AccessURL>
+   <Format>PNG</Format>
+  </AccessInformation>
+  <AccessInformation>
+   <RepositoryID>spase://SMWG/Repository/CDN</RepositoryID>
+   <AccessURL>
+    <Name>Nançay Decameter Array Routine data</Name>
+    <URL>https://realtime.obs-nancay.fr/dam/data_dam_affiche/data_dam_affiche.php?planete=soleil&amp;couleur=NoirBlanc&amp;mode=calendrier&amp;an=2020</URL>
+    <Language>en</Language>
+   </AccessURL>
+   <Format>PDF</Format>
+  </AccessInformation>
+  <InstrumentID>spase://SMWG/Instrument/SRN/NDA/Routine</InstrumentID>
+  <MeasurementType>Waves.Passive</MeasurementType>
+  <SpectralRange>RadioFrequency</SpectralRange>
+  <DisplayCadence>PT24H</DisplayCadence>
+  <ObservedRegion>Sun</ObservedRegion>
+ </DisplayData>
+</Spase>
