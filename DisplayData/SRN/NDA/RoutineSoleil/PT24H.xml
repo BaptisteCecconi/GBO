@@ -7,7 +7,7 @@
   <ResourceID>spase://GBO/DisplayData/SRN/NDA/RoutineSoleil/PT24H</ResourceID>
   <ResourceHeader>
    <ResourceName>NDA/Routine Browse Interface</ResourceName>
-   <ReleaseDate>2020-07-16T14:07:33</ReleaseDate>
+   <ReleaseDate>2020-07-16T15:48:33</ReleaseDate>
    <Description>Dynamic Spectra of NDA/Routine data with Sun tracking</Description>
    <Contact>
     <PersonID>spase://SMWG/Person/Laurent.Lamy</PersonID>
