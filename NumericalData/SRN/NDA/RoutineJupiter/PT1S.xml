@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
+    <NumericalData>
+        <ResourceID>spase://GBO/NumericalData/SRN/NDA/RoutineJupiter/PT1S</ResourceID>
+        <ResourceHeader>
+            <ResourceName>SRN NDA Routine Jupiter dataset</ResourceName>
+            <ReleaseDate>2020-07-16T16:12:36</ReleaseDate>
+            <Description>SRN NDA Routine Jupiter dataset</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+                <Role>DataProducer</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Alan.Loh</PersonID>
+                <Role>DataProducer</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Laurent.Lamy</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessInformation>
+            <RepositoryID>spase://SMWG/Repository/CDN</RepositoryID>
+            <Availability>Online</Availability>
+            <AccessRights>Open</AccessRights>
+            <AccessURL>
+                <URL>https://realtime.obs-nancay.fr/dam/databf/web/jupiter/data/</URL>
+            </AccessURL>
+            <Format>CDF</Format>
+        </AccessInformation>
+        <ProcessingLevel>Uncalibrated</ProcessingLevel>
+        <InstrumentID>spase://SMWG/Instrument/SRN/NDA/Routine</InstrumentID>
+        <MeasurementType>Waves.Passive</MeasurementType>
+        <TemporalDescription>
+            <TimeSpan>
+                <StartDate>1990-09-18T00:00:00Z</StartDate>
+                <RelativeStopDate>P1D</RelativeStopDate>
+            </TimeSpan>
+        </TemporalDescription>
+        <SpectralRange>RadioFrequency</SpectralRange>
+        <ObservedRegion>Jupiter</ObservedRegion>
+        <Parameter>
+            <Name>Time</Name>
+            <ParameterKey>Epoch</ParameterKey>
+            <Support>
+                <SupportQuantity>Temporal</SupportQuantity>
+            </Support>
+        </Parameter>
+        <Parameter>
+            <Name>Right Handed Polarization Spectral Power Density </Name>
+            <ParameterKey>RH</ParameterKey>
+            <UCD>phys.flux.density;phys.polarization.rr;em.radio</UCD>
+            <RenderingHints>
+                <DisplayType>Spectrogram</DisplayType>
+            </RenderingHints>
+            <ValidMin>0</ValidMin>
+            <ValidMax>255</ValidMax>
+            <Wave>
+                <WaveQuantity>StokesParameters</WaveQuantity>
+            </Wave>
+        </Parameter>
+        <Parameter>
+            <Name>Left Handed Polarization Spectral Power Density</Name>
+            <UCD>phys.flux.density;phys.polarization.ll;em.radio</UCD>
+            <RenderingHints>
+                <DisplayType>Spectrogram</DisplayType>
+            </RenderingHints>
+            <Wave>
+                <WaveQuantity>StokesParameters</WaveQuantity>
+            </Wave>
+        </Parameter>
+        <Parameter>
+            <Name>Status</Name>
+            <Support>
+                <SupportQuantity>InstrumentMode</SupportQuantity>
+            </Support>
+        </Parameter>
+    </NumericalData>
+</Spase>
+

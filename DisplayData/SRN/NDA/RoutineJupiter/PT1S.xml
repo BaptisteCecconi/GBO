@@ -4,7 +4,7 @@
  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
  <Version>2.3.1</Version>
  <DisplayData>
-  <ResourceID>spase://GBO/DisplayData/SRN/NDA/RoutineJupiter/PT24H</ResourceID>
+  <ResourceID>spase://GBO/DisplayData/SRN/NDA/RoutineJupiter/PT1S</ResourceID>
   <ResourceHeader>
    <ResourceName>NDA/Routine Browse Interface</ResourceName>
    <ReleaseDate>2020-07-16T15:48:33</ReleaseDate>
